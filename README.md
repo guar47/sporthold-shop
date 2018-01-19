@@ -1,8 +1,6 @@
-# Boilerplate Webpage
+# Sporthold Shop
 
-Boilerplate for webpages with sass, gulp and brower-sync.
-
-## Usage
+## Local Usage
 
 `npm install`
 

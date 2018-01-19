@@ -1,0 +1,137 @@
+@font-face {
+  font-family: TruenoLt;
+  src: url("../fonts/TruenoLt.otf"); }
+
+@font-face {
+  font-family: TruenoBd;
+  src: url("../fonts/TruenoBd.otf"); }
+
+@font-face {
+  font-family: TruenoUltBlk;
+  src: url("../fonts/TruenoUltBlk.otf"); }
+
+.navigation {
+  background-color: #472424;
+  font-family: TruenoLt, sans-serif; }
+
+.navigation__links {
+  height: 50px; }
+  .navigation__links .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem; }
+
+.navigation__links a {
+  color: #fff;
+  font-size: 13px;
+  line-height: 2.0; }
+  .navigation__links a:hover {
+    color: #fff; }
+
+.col.navigation__auth .btn-group button {
+  box-shadow: -1px 0 0 0 rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem; }
+  .col.navigation__auth .btn-group button:hover {
+    background: #ff7373; }
+
+.col.navigation__auth button {
+  font-size: 13px;
+  line-height: 2.0;
+  color: #fff; }
+  .col.navigation__auth button:hover, .col.navigation__auth button:focus {
+    color: #fff;
+    text-decoration: none; }
+
+.col.navigation__auth img {
+  width: 21px;
+  height: 20px;
+  margin: 0 10px 0 0; }
+
+.navigation__items {
+  color: #dcc5b8; }
+
+.slider-navigation {
+  background-color: #623232;
+  font-family: TruenoLt, sans-serif; }
+
+.slider-navigation__container {
+  height: 76px; }
+  .slider-navigation__container a {
+    font-size: 16px;
+    line-height: 1.62; }
+  .slider-navigation__container .navbar-brand {
+    padding-top: 0; }
+  .slider-navigation__container .navbar-nav .nav-item .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem; }
+  .slider-navigation__container .navbar-nav .nav-item a.slider-navigation__item--active {
+    color: #ff7373;
+    border-bottom: 4px solid #ff7373; }
+
+.banner {
+  height: 600px;
+  background: #f0efee; }
+  .banner img {
+    position: absolute;
+    top: -86px; }
+  .banner .banner__button {
+    font-family: TruenoBd;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #fff;
+    width: 255px;
+    height: 48px;
+    background-color: #ff7373;
+    text-decoration: none;
+    border-radius: 0; }
+    .banner .banner__button:hover, .banner .banner__button:focus {
+      color: #fff;
+      background-color: #ff7373;
+      text-decoration: none; }
+
+.banner__background-image {
+  left: -99px;
+  top: -41px;
+  width: 52.61905%;
+  height: 676px;
+  background: url("../img/banner-background.png") no-repeat;
+  background-size: 100%; }
+
+.banner__advertise {
+  left: 51.0119%;
+  top: 133px;
+  width: 27.5%; }
+
+.banner__price {
+  font-family: TruenoLt, sans-serif;
+  font-size: 30px;
+  color: #623232; }
+
+.banner__name {
+  font-family: TruenoUltBlk;
+  font-size: 70px;
+  color: #623232; }
+
+.banner__name-2 {
+  font-family: TruenoUltBlk;
+  font-size: 50px;
+  color: #ff7373; }
+
+.banner__desc {
+  font-family: TruenoLt;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #8a8784; }
+
+.collection-blocks {
+  height: 642px; }
+
+.collection-blocks__left {
+  height: 540px;
+  width: 540px;
+  background: #000 url("../img/kyrie-background.jpg"); }
+
+.collection-blocks__right {
+  height: 540px;
+  width: 540px; }
