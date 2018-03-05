@@ -23,7 +23,7 @@
 .navigation__links a {
   color: #fff;
   font-size: 13px;
-  line-height: 2.0; }
+  line-height: 2; }
   .navigation__links a:hover {
     color: #fff; }
 
@@ -37,7 +37,7 @@
 
 .col.navigation__auth button {
   font-size: 13px;
-  line-height: 2.0;
+  line-height: 2;
   color: #fff; }
   .col.navigation__auth button:hover, .col.navigation__auth button:focus {
     color: #fff;
@@ -99,8 +99,7 @@
   background-size: 100%; }
 
 .banner__advertise {
-  left: 51.0119%;
-  top: 133px;
+  margin: 133px 0 0 0;
   width: 27.5%; }
 
 .banner__price {
@@ -122,16 +121,239 @@
   font-family: TruenoLt;
   font-size: 16px;
   line-height: 1.62;
+  width: 45%;
   color: #8a8784; }
 
 .collection-blocks {
-  height: 642px; }
+  margin: 50px 0 0 0; }
 
 .collection-blocks__left {
-  height: 540px;
-  width: 540px;
   background: #000 url("../img/kyrie-background.jpg"); }
+  .collection-blocks__left img {
+    width: 32px;
+    height: 48px;
+    margin: 50px 0 0 50px; }
+  .collection-blocks__left h1 {
+    font-family: TruenoLt;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin: 44px 0 0 68px;
+    width: 251px;
+    height: 70px; }
+    .collection-blocks__left h1 span {
+      font-family: TruenoBd;
+      color: #4bd8cd; }
+  .collection-blocks__left button {
+    left: 165px;
+    top: 442px;
+    font-family: TruenoBd;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #000;
+    width: 211px;
+    height: 48px;
+    background-color: #4bd8cd;
+    text-decoration: none;
+    border-radius: 0; }
+    .collection-blocks__left button:hover, .collection-blocks__left button:focus {
+      color: #000;
+      background-color: #4bd8cd;
+      text-decoration: none; }
 
 .collection-blocks__right {
+  margin: 0 0 0 15px;
   height: 540px;
   width: 540px; }
+
+.mini-blocks__upper-right {
+  background: #ff7373 url("../img/new-arrivals-sneaker.png") no-repeat;
+  width: 540px;
+  height: 255px; }
+  .mini-blocks__upper-right h1 {
+    left: 227px;
+    top: 59px;
+    width: 239px;
+    height: 70px;
+    font-family: TruenoLt;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff; }
+    .mini-blocks__upper-right h1 span {
+      font-family: TruenoBd; }
+  .mini-blocks__upper-right button {
+    left: 272px;
+    top: 148px;
+    width: 145px;
+    height: 48px;
+    background-color: #623232;
+    font-family: TruenoBd;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #fff; }
+    .mini-blocks__upper-right button:hover, .mini-blocks__upper-right button:focus {
+      color: #fff;
+      background-color: #623232;
+      text-decoration: none; }
+
+.mini-blocks__bottom-left {
+  margin: 30px 0 0 0;
+  width: 255px;
+  height: 255px;
+  background: #2d2f2e url("../img/athletes-background.jpg"); }
+  .mini-blocks__bottom-left h1 {
+    padding: 146px 0 0 0;
+    width: 158px;
+    height: 70px;
+    font-family: TruenoLt;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff; }
+    .mini-blocks__bottom-left h1 span {
+      font-family: TruenoBd;
+      color: #ff7373; }
+
+.mini-blocks__bottom-right {
+  margin: 30px 0 0 0;
+  width: 255px;
+  height: 255px;
+  background: #cecece url("../img/premium-background.png") 16px 132px no-repeat; }
+  .mini-blocks__bottom-right h1 {
+    padding: 34px 0 0 0;
+    width: 150px;
+    height: 71px;
+    font-family: TruenoLt;
+    font-size: 30px;
+    text-align: center;
+    color: #6b7072;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.2); }
+    .mini-blocks__bottom-right h1 span {
+      font-family: TruenoBd;
+      color: #ffffff; }
+
+.brands {
+  margin: 100px; }
+
+.brands__nav a {
+  font-family: TruenoLt;
+  font-size: 30px;
+  text-align: center;
+  color: #bdb9b5; }
+  .brands__nav a.active {
+    font-family: TruenoBd;
+    color: #623232; }
+  .brands__nav a:hover {
+    color: #623232; }
+
+.brands__products {
+  margin: 50px 0 0 0; }
+
+.brands__products .col {
+  padding: 15px 7.5px; }
+
+.item {
+  width: 255px;
+  height: 350px;
+  padding: 27px 27px 30px 29px;
+  border: solid 1px #e0dfde;
+  font-family: TruenoLt; }
+
+.item__price {
+  font-size: 24px;
+  line-height: 1.08;
+  text-align: left;
+  color: #8a8784;
+  margin: 0 0 41px 0; }
+
+.item__new-price {
+  width: 79px;
+  font-size: 24px;
+  line-height: 1.08;
+  color: #ff7373; }
+
+.item__old-price {
+  font-size: 16px;
+  line-height: 1.62;
+  color: #8a8784;
+  text-decoration: line-through; }
+
+.item__pic {
+  width: 200px; }
+
+.item__title {
+  margin-bottom: 0; }
+
+.item__gender {
+  margin: 40px 0 0 0;
+  font-family: TruenoBd;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: left;
+  color: #8a8784; }
+
+.item__article {
+  font-size: 13px;
+  line-height: 2;
+  color: #bdb9b5; }
+
+.brands__logos {
+  margin: 90px 0 0 0; }
+
+.testimonials {
+  height: 570px;
+  background: url("../img/quotes-background.jpg") no-repeat; }
+
+.testimonials__users {
+  padding: 100px 0 0 0; }
+
+.user__avatar {
+  width: 60px;
+  height: 60px; }
+  .user__avatar img {
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 50%; }
+
+.user__profile--inactive {
+  opacity: 0.5; }
+
+.user__name {
+  font-family: TruenoBd;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #fff;
+  margin: 29px 0 0 0; }
+
+.user__rating .fa-star {
+  color: #ff7373; }
+
+.testimonials__review {
+  height: 190px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 48px 0 0 0; }
+  .testimonials__review p {
+    font-family: TruenoLt;
+    width: 95%;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0 0 0; }
+
+.testimonials__review:after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  /* value = - border-top-width - border-bottom-width */
+  bottom: auto;
+  left: 48.3%;
+  border-width: 0 20px 20px;
+  /* vary these values to change the angle of the vertex */
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1) transparent;
+  /* reduce the damage in FF3.0 */
+  display: block;
+  width: 0; }
+
+.news {
+  margin: 105px 0 0 0; }
