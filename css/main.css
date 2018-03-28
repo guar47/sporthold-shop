@@ -301,7 +301,8 @@
 
 .testimonials {
   height: 570px;
-  background: url("../img/quotes-background.jpg") no-repeat; }
+  background: #462424 url("../img/quotes-background.jpg") no-repeat;
+  background-size: cover; }
 
 .testimonials__users {
   padding: 100px 0 0 0; }
@@ -357,3 +358,77 @@
 
 .news {
   margin: 105px 0 0 0; }
+
+.news__header {
+  font-family: TruenoBd;
+  font-size: 30px;
+  color: #623232; }
+
+.news__section {
+  padding: 50px 0; }
+
+.news__block {
+  width: 350px;
+  height: 350px; }
+
+.block-left {
+  background: url("../img/news-bg-1.jpg") no-repeat; }
+
+.block-center {
+  background: url("../img/news-bg-2.jpg") no-repeat; }
+
+.block-right {
+  background: url("../img/news-bg-3.jpg") no-repeat; }
+
+.help-bg {
+  background-color: #ff7373; }
+
+.help {
+  height: 200px; }
+  .help button {
+    height: 48px;
+    padding: 0.375rem 1.75rem;
+    background-color: #623232;
+    font-family: TruenoBd;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #fff; }
+    .help button:hover, .help button:focus {
+      color: #fff;
+      background-color: #623232;
+      text-decoration: none; }
+
+.help__header {
+  font-family: TruenoBd;
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 1rem; }
+
+.help__description {
+  font-family: TruenoLt;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #ffffff; }
+
+.footer {
+  background-color: #623232; }
+
+.footer__features {
+  padding-top: 50px;
+  height: 208px;
+  border-bottom: rgba(255, 255, 255, 0.15) solid 1px; }
+  .footer__features .image {
+    height: 40px; }
+  .footer__features p {
+    margin-top: 30px;
+    font-family: TruenoLt;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #ffffff; }
+
+.footer__nav {
+  height: 405px; }
+
+.footer__bottom {
+  height: 116px; }
