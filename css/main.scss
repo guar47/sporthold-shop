@@ -524,8 +524,61 @@
 
 .footer__nav {
   height: 405px;
+  padding-top: 99px;
+  padding-bottom: 99px;
+  border-bottom: rgba(255, 255, 255, 0.15) solid 1px;
+
+  .nav-link {
+    padding: 0;
+    font-family: TruenoLt;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 2.25;
+  }
+}
+
+.footer-nav__header,
+.footer-nav__contact-header {
+  color: #ff7373;
+  font-size: 16px;
+  font-family: TruenoBd;
+  text-transform: uppercase;
+}
+.footer-nav__contact-link,
+.footer-bottom__copyright {
+  padding: 0;
+  font-family: TruenoLt;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer-nav__header,
+.footer-bottom__copyright {
+  line-height: 2.25;
+}
+
+.footer-nav__contact-header,
+.footer-nav__contact-link {
+  line-height: 1.63;
+}
+.footer-nav__contact-img {
+  background: #ff7373;
+  height: 55px;
+  width: 55px;
+  margin-right: 20px;
+}
+.footer-nav__contact-item {
+  margin-top: 20px;
 }
 
 .footer__bottom {
   height: 116px;
+}
+
+.footer-bottom__logo {
+  padding-bottom: .5rem;
+}
+
+.footer-bottom__copyright {
+  margin-bottom: 0;
 }
