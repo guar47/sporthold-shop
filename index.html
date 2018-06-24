@@ -18,7 +18,7 @@
   <div class="container-fluid navigation">
     <div class="container">
       <div class="row">
-        <div class="col d-flex align-items-center navigation__links">
+        <div class="col-12 col-lg d-flex justify-content-center justify-content-lg-start align-items-center navigation__links">
           <ul class="nav">
             <li class="nav-item">
               <a class="nav-link active" href="#">Support</a>
@@ -34,7 +34,7 @@
             </li>
           </ul>
         </div>
-        <div class="col d-flex justify-content-end navigation__auth">
+        <div class="col-12 col-lg d-flex justify-content-lg-end justify-content-center navigation__auth">
           <button type="button" class="btn btn-link">
             <img src="./img/shopping-cart-icon.png" alt="shopping cart icon">
             <span class="navigation__sum">$465.00</span>
@@ -50,38 +50,44 @@
   </div>
   <div class="container-fluid slider-navigation">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark slider-navigation__container pr-0 py-0">
+
+      <nav class="navbar navbar-expand-lg navbar-dark slider-navigation__container pr-0 py-3">
         <a class="navbar-brand" href="./">
           <img src="./img/main-logo.png" width="182" height="24" alt="shop logo">
         </a>
-        <div class="collapse navbar-collapse h-100">
-          <ul class="navbar-nav ml-auto h-100">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarLinks">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link h-100 d-flex align-items-center slider-navigation__item--active" href="#">Home
+              <a class="nav-link d-flex align-items-center slider-navigation__item--active" href="#">Home
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link h-100 d-flex align-items-center" href="#">Men
+              <a class="nav-link d-flex align-items-center" href="#">Men
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link h-100 d-flex align-items-center" href="#">Women
+              <a class="nav-link d-flex align-items-center" href="#">Women
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link h-100 d-flex align-items-center" href="#">Children
+              <a class="nav-link d-flex align-items-center" href="#">Children
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link h-100 d-flex align-items-center" href="#">Baby
+              <a class="nav-link d-flex align-items-center" href="#">Baby
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link h-100 d-flex align-items-center" href="#">Our Brands
+              <a class="nav-link d-flex align-items-center" href="#">Our Brands
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link h-100 d-flex align-items-center" href="#">Sales
+              <a class="nav-link d-flex align-items-center" href="#">Sales
               </a>
             </li>
           </ul>
@@ -89,10 +95,11 @@
       </nav>
     </div>
   </div>
+
   <div class="container-fluid banner">
-    <div class="row">
-      <div class="col banner__background-image" alt="sneaker picture banner"></div>
-      <section class="col d-flex flex-column banner__advertise">
+    <div class="row align-items-center">
+      <div class="col-12 col-md banner__background-image" alt="sneaker picture banner"></div>
+      <section class="col-12 col-md pl-5 pb-5 d-flex flex-column banner__advertise">
         <p class="banner__price">From $80.00</p>
         <h1 class="banner__name">Nike Air Max</h1>
         <h2 class="banner__name-2">50 Variants</h2>
@@ -101,18 +108,21 @@
       </section>
     </div>
   </div>
+
   <div class="container collection-blocks">
-    <div class="row">
-      <div class="col collection-blocks__left position-relative d-flex">
-        <img src="./img/snake-icon.png" alt="snake icon">
-        <h1>Discover the new
-          <span>NIKE KYRIE 3</span>
-        </h1>
-        <button type="button" class="btn btn-link position-absolute">VIEW COLLECTION</button>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <div class="collection-blocks__left h-100 position-relative d-flex">
+          <img src="./img/snake-icon.png" alt="snake icon">
+          <h1>Discover the new
+            <span>NIKE KYRIE 3</span>
+          </h1>
+          <button type="button" class="btn btn-link position-absolute">VIEW COLLECTION</button>
+        </div>
       </div>
-      <div class="col collection-blocks__right mini-blocks">
+      <div class="col-auto collection-blocks__right mini-blocks">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12-auto">
             <div class=" mini-blocks__upper-right position-relative">
               <h1 class="position-absolute">Check out the
                 <span>NEW ARRIVALS</span>
@@ -120,18 +130,20 @@
               <button type="button" class="btn btn-link position-absolute rounded-0">DISCOVER</button>
             </div>
           </div>
-          <div class="col-6">
-            <div class=" mini-blocks__bottom-left">
-              <h1 class="mx-auto">Best for
-                <span>ATHLETES</span>
-              </h1>
+          <div class="col-12-auto">
+            <div class="col-6">
+              <div class=" mini-blocks__bottom-left">
+                <h1 class="mx-auto">Best for
+                  <span>ATHLETES</span>
+                </h1>
+              </div>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="mini-blocks__bottom-right">
-              <h1 class="mx-auto">Feel
-                <span>PREMIUM</span>
-              </h1>
+            <div class="col-6">
+              <div class="mini-blocks__bottom-right">
+                <h1 class="mx-auto">Feel
+                  <span>PREMIUM</span>
+                </h1>
+              </div>
             </div>
           </div>
         </div>
